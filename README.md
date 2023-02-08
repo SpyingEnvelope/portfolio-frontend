@@ -6,4 +6,4 @@ I decided to build the website using React. Other than react, I used framer-moti
 ### While this is the frontend for my website, the website itself is actually a full-stack application! Checkout the backend code here https://github.com/SpyingEnvelope/portfolio-backend
 
 <br>
-#### The inspiration for the website design is based on a popular bootstrap template. However, I made the whole website myself from scratch.
+The inspiration for the website design is based on a popular bootstrap template. However, I made the whole website myself from scratch.
