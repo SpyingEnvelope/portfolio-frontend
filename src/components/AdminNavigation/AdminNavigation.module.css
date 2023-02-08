@@ -1,0 +1,21 @@
+.active {
+    color: white;
+    text-decoration: none;
+    padding-right: 1rem
+}
+
+.active:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.notactive {
+    color: black;
+    text-decoration: none;
+    padding-right: 1rem
+}
+
+.notactive:hover {
+    text-decoration: none;
+    color: black;
+}

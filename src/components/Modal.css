@@ -1,0 +1,57 @@
+.Modal {
+  position: fixed;
+  z-index: 200;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 2px #ccc;
+  border-radius: 8px;
+  background-color: white;
+  text-align: center;
+  top: 5%;
+  left: 30%;
+  width: 40%;
+  overflow-y: auto;
+}
+
+.Button {
+  width: 90px !important;
+  height: 60px !important;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.description-title {
+    opacity: 1;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.left {
+    text-align: start;
+    padding: 0 !important;
+}
+
+.right {
+  text-align: end;
+  padding: 0 !important;
+}
+
+
+
+@media screen and (max-width: 550px) {
+  .Modal {
+    width: 90%;
+    left: 5%;
+  }
+}
+
+@media screen and (max-height: 800px) {
+    .Modal {
+      max-height: 100vh;
+      overflow-y: auto;
+      top: 0;
+    }
+  }
