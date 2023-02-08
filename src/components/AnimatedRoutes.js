@@ -11,6 +11,7 @@ import AdminProjects from "../pages/AdminProjects/AdminProject";
 import Login from "../pages/Login/Login";
 import EditProject from "../pages/EditProject/EditProject";
 import SuccessfulMessage from "../pages/SuccessfulMessage/SuccessfulMessage";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -27,6 +28,7 @@ const AnimatedRoutes = () => {
         <Route path="/admin/projects" element={<AdminProjects /> } />
         <Route path="/admin/projects/:id" element={<EditProject />} />
         <Route path="/admin/login" element={<Login />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </AnimatePresence>
   );
