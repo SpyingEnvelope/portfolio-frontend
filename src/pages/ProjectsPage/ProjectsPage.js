@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Row, Col, Card, CardGroup } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import StarLine from "../../components/StarLine";
 import Portfolio from "../../components/Portfolio";
 import ModalOverlay from "../../components/Modal";

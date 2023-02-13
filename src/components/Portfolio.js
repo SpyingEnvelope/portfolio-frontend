@@ -18,8 +18,10 @@ const Portfolio = (props) => {
   };
 
   useEffect(() => {
-    getProjects();
-  });
+    if (projectsList.length === 0) {
+      getProjects();
+    };
+  }, [projectsList]);
 
   if (projectsList.length === 0) {
     return (
