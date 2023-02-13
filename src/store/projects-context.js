@@ -63,7 +63,7 @@ const BACKUP_ARRAY = [
       "This app lets you set up a timer for how long you want a session to be and how long you want your break to be. The app then beeps when the time runs out. It is a great tool for setting up a studying schedule!",
     techUsed: "This project uses HTML, CSS, JavaScript, React, and Redux.",
     image:
-      "http://portfolio-backend-nodejs-tfmxr.ondigitalocean.app/images/255clock.jpg",
+      "https://portfolio-backend-nodejs-tfmxr.ondigitalocean.app/images/255clock.jpg",
     link: "https://codepen.io/spyingenvelope/full/yLoWyzw",
   },
   {
