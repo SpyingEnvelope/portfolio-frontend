@@ -97,13 +97,13 @@ const ContactPage = () => {
 
           <Form.Group className="mb-3" controlId="phone">
             <Form.Label>Phone Number</Form.Label>
-            <Form.Control type="tel" className="text-center" />
+            <Form.Control type="tel" className="text-center" required />
             <Form.Text className="text-muted"></Form.Text>
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="email">
             <Form.Label>Email</Form.Label>
-            <Form.Control type="email" className="text-center" />
+            <Form.Control type="email" className="text-center" required />
             <Form.Text className="text-muted"></Form.Text>
           </Form.Group>
 
@@ -114,6 +114,7 @@ const ContactPage = () => {
               rows={5}
               type="textarea"
               className="text-center"
+              required
             />
             <Form.Text className="text-muted"></Form.Text>
           </Form.Group>

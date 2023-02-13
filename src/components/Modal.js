@@ -1,4 +1,4 @@
-import { Container, Row, Col, Image, Button, Modal } from "react-bootstrap";
+import { Container, Image, Button, Modal } from "react-bootstrap";
 
 import "./Modal.css";
 

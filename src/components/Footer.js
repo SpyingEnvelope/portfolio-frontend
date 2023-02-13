@@ -7,7 +7,6 @@ const Footer = () => {
     <Navbar bg="dark" variant="dark" style={{zIndex: 100}}>
       <Container fluid className="d-flex flex-column">
         <Navbar.Text style={{ color: "white" }}>Gad Cooper</Navbar.Text>
-        <Navbar.Text>Contact me</Navbar.Text>
         <Navbar.Text>Email: gad.cooper@shaw.ca</Navbar.Text>
         <Nav>
           <NavLink
@@ -41,7 +40,7 @@ const Footer = () => {
               isActive ? classes.active : classes.notactive
             }
           >
-            Contact
+            Contact me
           </NavLink>
         </Nav>
       </Container>

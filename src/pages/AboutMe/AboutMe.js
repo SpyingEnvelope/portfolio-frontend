@@ -1,4 +1,4 @@
-import { Container, Row, Image, Col, Button } from "react-bootstrap";
+import { Row, Image, Col} from "react-bootstrap";
 import { motion } from "framer-motion";
 import classes from "./AboutMe.module.css";
 import StarLine from "../../components/StarLine";
@@ -168,6 +168,7 @@ const AboutMe = () => {
           className={classes.social}
           href="https://www.freecodecamp.org/spyingenvy"
           target="_blank"
+          rel="noreferrer"
         >
           freeCodeCamp Profile
         </a>
@@ -177,6 +178,7 @@ const AboutMe = () => {
           className={classes.social}
           href="https://github.com/SpyingEnvelope"
           target="_blank"
+          rel="noreferrer"
         >
           Github Page
         </a>
@@ -186,6 +188,7 @@ const AboutMe = () => {
           className={classes.social}
           href="https://www.linkedin.com/in/gad-cooper/"
           target="_blank"
+          rel="noreferrer"
         >
           LinkedIn Profile
         </a>

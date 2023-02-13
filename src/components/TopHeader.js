@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar, faPlane  } from "@fortawesome/free-solid-svg-icons";
+import { faPlane  } from "@fortawesome/free-solid-svg-icons";
 
 import StarLine from "./StarLine";
 
