@@ -2,9 +2,6 @@ import { useState } from "react";
 
 import { Container, Col, Row } from "react-bootstrap";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Portfolio from "../../components/Portfolio";
 import TopHeader from "../../components/TopHeader";
 import ModalOverlay from "../../components/Modal";
@@ -65,7 +62,7 @@ const HomePage = () => {
                 opacity: 1,
               }}
             >
-              My name is Gad Cooper and I am a self-taught, full-stack
+              My name is Gad Cooper and I am a full-stack
               developer! <br></br> Here are some of the frameworks, libaries and
               languages I've learned about and worked with over the years:
             </p>
